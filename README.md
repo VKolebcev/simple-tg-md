@@ -13,7 +13,7 @@ pip install simple-tg-md
 
 ## Требования
 
-- Python 3.7 или выше
+- Python 3.9 или выше
 
 ## Возможности
 

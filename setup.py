@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="simple-tg-md",
-    version="0.1.0",
+    version="0.1.1",
     author="HalPerson",
     author_email="vkolebcev@yandex.ru",
     description="Библиотека для конвертирования текста в Telegram Markdown V2",
@@ -21,6 +21,6 @@ setup(
         "Operating System :: OS Independent"
     ],
     packages=find_packages(),
-    python_requires=">=3.8",
+    python_requires=">=3.9",
     keywords='telegram markdown conversion',
 )
