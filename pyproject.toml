@@ -14,6 +14,13 @@ license = {file = "LICENSE"}
 "Homepage" = "https://github.com/VKolebcev/simple-tg-md"
 "Bug Tracker" = "https://github.com/VKolebcev/simple-tg-md/issues"
 
+[tool.setuptools]
+packages = ["simple_tg_md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
 [tool.black]
 line-length = 88
 target-version = ['py38']
